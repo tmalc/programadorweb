@@ -3,3 +3,4 @@ email
 documento
 domicilio
 estado civil
+ocupacion
