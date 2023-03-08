@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distancias</title>
+</head>
+<body>
+    <script>
+		const distancia = parseInt(prompt('Ingrese km a recorrer:', ''));
+
+
+		if (distancia < parseInt(1)) {
+			document.write(`Usted deberia caminar`);
+		} else if (distancia > parseInt(1) && distancia < parseInt(10)) {
+			document.write(`Usted deberia pedalear`);
+		}
+		else if (distancia > parseInt(10) && distancia < parseInt(30)) {
+			document.write(`Usted deberia tomarse un colectivo`);
+		}
+		else if (distancia > parseInt(30) && distancia < parseInt(100)) {
+			document.write(`Lo mejor seria ir en auto`);
+		}
+		else if (distancia> parseInt(100)){
+			document.write(`Vaya en avion`)
+		}
+		else {
+			parseInt(prompt('Ingrese un valor numerico:', ''));
+		}
+
+	</script>
+
+</body>
+</html>
